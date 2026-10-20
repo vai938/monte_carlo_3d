@@ -1,38 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<title>Monte Carlo 3D</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-	<link type="text/css" rel="stylesheet" href="src/style.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
-		integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
-		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script src="https://threejs.org/build/three.min.js"></script>
-
-	<!-- <script src="http://threejs.org/examples/js/libs/tween.min.js"></script> -->
-
-	<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
-</head>
-
-<body>
-	<div class="content_value">
-
-		<div class="pi">
-			<label for="input">Enter the number of Simulation</label>
-			<input type="text" class="piVal"> <br>
-			<button class="btn">Submit</button> <br>
-			<button class="click btn">File download</button> <br>
-			Value of Pi
-			<span class="piValue">
-			</span>
-			<h1 class="heading">Monte Carlo Estimation of Pi using 3D model</h1>
-		</div>
-	</div>
-
-
-	<script type="module" src="src/index.js"></script>
-</body>
-
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>Monte Carlo 3D Pi Estimation</title>
+    <meta name="description" content="Monte Carlo Estimation of Pi using an interactive 3D model with Three.js and GSAP." />
+    <meta property="og:title" content="Monte Carlo 3D Pi Estimation" />
+    <meta property="og:description" content="Monte Carlo Estimation of Pi using an interactive 3D model with Three.js and GSAP." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

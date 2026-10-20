@@ -1,0 +1,4 @@
+{
+  "name": "Monte Carlo 3D Pi Estimation",
+  "description": "Monte Carlo Estimation of Pi using an interactive 3D model with Three.js and GSAP."
+}
